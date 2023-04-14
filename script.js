@@ -7,7 +7,7 @@ else if (num1<num2){
     alert("El " + num2 + "es mayor que el "+ num1)
 }
 else if(num1==num2){
-    alert("El "+ num1 + "y el " num2 + "son iguales ")
+    alert("El "+ num1 + "y el " + num2 + "son iguales ")
 }
 if (num2 % 2 == 0){
     alert("El " + num2 + "número es par")
