@@ -1,20 +1,17 @@
-function compararNumeros(numero1, numero2) {
-    let resultado = "";
-    if (numero1 > numero2) {
-        resultado = "mayor";
-    } else if (numero1 < numero2) {
-        resultado = "menor";
-    } else {
-        resultado = "igual";
-    }
-    return resultado;
+let num1 = parseFloat(prompt("Pon aquí el primer número:"));
+let num2 = parseFloat(prompt("Pon aquí el segundo número"));
+if (num1>num2) {
+    alert("El primer número es mayor")
 }
-
-const numero1 = parseInt(prompt("Ingrese el primer número:"));
-const numero2 = parseInt(prompt("Ingrese el segundo número:"));
-
-const resultadoComparacion = compararNumeros(numero1, numero2);
-console.log(`El primer número es ${resultadoComparacion} que el segundo número.`);
-
-const resultadoParidad = numero2 % 2 === 0 ? "par" : "impar";
-console.log(`El segundo número es ${resultadoParidad}.`);
+else if (num1<num2){
+    alert("El segundo número es mayor")
+}
+else if(num1==num2){
+    alert("Los dos números son iguales")
+}
+if (num2 % 2 == 0){
+    alert("El segundo número es par")
+}
+else{
+    alert("El segundo número es impar")
+}
