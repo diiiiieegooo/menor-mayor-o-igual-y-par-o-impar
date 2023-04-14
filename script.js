@@ -4,14 +4,14 @@ if (num1>num2) {
     alert("El primer número es mayor")
 }
 else if (num1<num2){
-    alert("El segundo número es mayor")
+    alert("El " + num2 + "es mayor que el "+ num1)
 }
 else if(num1==num2){
-    alert("Los dos números son iguales")
+    alert("El "+ num1 + num2 + "son iguales ")
 }
 if (num2 % 2 == 0){
-    alert("El segundo número es par")
+    alert("El " + num2 + "número es par")
 }
 else{
-    alert("El segundo número es impar")
+    alert("El " + num2 + "número es impar")
 }
